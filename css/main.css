@@ -1,0 +1,12 @@
+.col-6 img {
+  shape-image-threshold: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+  -webkit-clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%); }
+  .col-6 img:hover {
+    shape-image-threshold: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    -webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%); }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVJLCtGQUE4RjtFQUM5RixnQ0FBdUI7RUFBdkIsd0JBQXVCO0VBQ3ZCLG1GQUFrRjtFQUNsRiwyRkFBMEYsRUFRN0Y7RUFiRDtJQVNRLDZGQUE0RjtJQUM1RixpRkFBZ0Y7SUFDaEYseUZBQXdGLEVBQzNGIiwiZmlsZSI6Im1haW4uY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbC02e1xuaW1ne1xuICAgIHNoYXBlLWltYWdlLXRocmVzaG9sZDogcG9seWdvbig0MCUgMCUsIDQwJSAyMCUsIDEwMCUgMjAlLCAxMDAlIDgwJSwgNDAlIDgwJSwgNDAlIDEwMCUsIDAlIDUwJSk7XG4gICAgdHJhbnNpdGlvbjogYWxsIDFzIGVhc2U7XG4gICAgY2xpcC1wYXRoOiBwb2x5Z29uKDQwJSAwJSwgNDAlIDIwJSwgMTAwJSAyMCUsIDEwMCUgODAlLCA0MCUgODAlLCA0MCUgMTAwJSwgMCUgNTAlKTtcbiAgICAtd2Via2l0LWNsaXAtcGF0aDogcG9seWdvbig0MCUgMCUsIDQwJSAyMCUsIDEwMCUgMjAlLCAxMDAlIDgwJSwgNDAlIDgwJSwgNDAlIDEwMCUsIDAlIDUwJSk7XG4gICAgXG4gICAgXG4gICAgJjpob3ZlcntcbiAgICAgICAgc2hhcGUtaW1hZ2UtdGhyZXNob2xkOiBwb2x5Z29uKDAlIDIwJSwgNjAlIDIwJSwgNjAlIDAlLCAxMDAlIDUwJSwgNjAlIDEwMCUsIDYwJSA4MCUsIDAlIDgwJSk7XG4gICAgICAgIGNsaXAtcGF0aDogcG9seWdvbigwJSAyMCUsIDYwJSAyMCUsIDYwJSAwJSwgMTAwJSA1MCUsIDYwJSAxMDAlLCA2MCUgODAlLCAwJSA4MCUpO1xuICAgICAgICAtd2Via2l0LWNsaXAtcGF0aDogcG9seWdvbigwJSAyMCUsIDYwJSAyMCUsIDYwJSAwJSwgMTAwJSA1MCUsIDYwJSAxMDAlLCA2MCUgODAlLCAwJSA4MCUpO1xuICAgIH1cbn1cbn0iXX0= */
